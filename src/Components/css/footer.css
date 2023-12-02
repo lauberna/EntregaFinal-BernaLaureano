@@ -1,0 +1,48 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 115px;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
+
+footer > img {
+  width: 200px;
+  margin: 0;
+  margin-left: 10px;
+  color: black
+}
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+.darkFooter{
+  transition: all .2s ease-in-out;
+  background-color: rgb(18, 1, 47);
+  color: white;
+}
+
+.ligthFooter{
+  transition: all .2s ease-in-out;
+  background-color: rgb(35, 123, 178);
+  color: white;
+}
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.redes > img {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 1.3%;
+}
